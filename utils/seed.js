@@ -9,21 +9,21 @@ dotenv.config();
 // Sample products data
 const products = [
   {
-    title: 'Premium Hoodie',
-    description: 'A stylish and warm hoodie made from high-quality materials',
-    price: 49.99,
-    image: 'https://example.com/images/hoodie.jpg',
-    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-    colors: ['Red', 'Black', 'Gray'],
-    available_quantity: 50
+    title: 'Classic T-Shirt',
+    description: 'A comfortable cotton t-shirt for everyday wear',
+    price: 19.99,
+    image: 'https://example.com/images/tshirt.jpg',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Black', 'White', 'Navy', 'Gray'],
+    available_quantity: 100
   },
   {
-    title: 'Running Shoes',
-    description: 'Lightweight and comfortable running shoes for daily workouts',
-    price: 89.99,
-    image: 'https://example.com/images/shoes.jpg',
-    sizes: [6, 7, 8, 9, 10, 11],
-    colors: ['Blue', 'Black', 'White'],
+    title: 'Slim Fit Jeans',
+    description: 'Modern slim fit jeans with stretch fabric for maximum comfort',
+    price: 49.99,
+    image: 'https://example.com/images/jeans.jpg',
+    sizes: ['28', '30', '32', '34', '36'],
+    colors: ['Blue', 'Black', 'Gray'],
     available_quantity: 75
   },
   {
